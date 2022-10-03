@@ -1,6 +1,11 @@
 {
   "name": "alxjzx100/q3stats",
   "type": "library",
+  "properties": {
+    "license": {
+      "type": "MIT"
+    }
+  },
   "autoload": {
     "psr-4": {
       "Alxjzx100\\Q3Stats\\": "src/"
