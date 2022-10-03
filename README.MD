@@ -21,6 +21,6 @@ require 'vendor/autoload.php';
 
 use alxjzx100\Q3Stats;
 
-$stats = new Q3Stats();
-var_dump( $stats->getStats('XX.XX.XX.XX', 'PORT') );
+$stats = new Q3Stats('XX.XX.XX.XX', 'PORT');
+var_dump( $stats->getStats() );
 ````
