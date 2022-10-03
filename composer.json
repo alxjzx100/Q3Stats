@@ -1,0 +1,20 @@
+{
+  "name": "Alxjzx100/Q3Stats",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Alxjzx100\\Q3Stats\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alx",
+      "email": "alxjzx100@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php" : ">=7.4",
+    "ext-sockets": "*"
+  }
+}
